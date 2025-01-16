@@ -262,11 +262,7 @@ Yπάρχουν συνολικά 4 αρχεία excel στο repository, ένα 
 #### Συνάρτηση Κόστους
 Η συνάρτηση κόστους διαμορφώνεται ως εξής:
 
-```
-Cost = w1*(L1ISize(KB) + L1DSize(KB)) + w2*L2Size(KB) + 
-       w3*Associativity_L1 + w4*Associativity_L2 + 
-       w5*CachelineSize(Bytes) + w6*CPUFrequency(GHz)
-```
+Cost = w1*(L1ISize(KB) + L1DSize(KB)) + w2*L2Size(KB) + w3*Associativity_L1 + w4*Associativity_L2 + w5*CachelineSize(Bytes) + w6*CPUFrequency(GHz)
 
 - **Συντελεστές Βαρύτητας**:
   - Αντικατοπτρίζουν το κόστος ανά μονάδα κάθε παράγωντα. Επείδη μας ζητήτε να δώσουμε τιμές αυθαίρετα , θα δώσω τις τιμες¨
